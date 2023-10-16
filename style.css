@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  color: #ff671d;
+}
+.tier-rows {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  margin: 70px auto;
+  width: 1000px;
+  flex-basis: 100px;
+}
+
+.free {
+  text-transform: uppercase;
+}
+
+.tiers {
+  border: 2px solid grey;
+  flex: 1;
+  padding: 30px;
+}
+
+.price {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.tier-detail {
+  margin-top: 10px;
+}
+
+.usage-detail {
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.support {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.main-style {
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+  padding: 18px;
+  font-size: 15px;
+  color: white;
+  background-color: #1866d4;
+}
+
+.main-style:hover {
+  cursor: pointer;
+}
+
+.alt-style {
+  border: none;
+  border: 1px solid #1866d4;
+  width: 100%;
+  margin-top: 15px;
+  padding: 18px;
+  font-size: 15px;
+  color: #1866d4;
+  background-color: white;
+}
+
+.alt-style:hover {
+  background-color: #1866d4;
+  color: white;
+}
